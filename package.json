@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "g": "^2.0.1",
+    "testcafe": "^1.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testcafe": "npx testcafe chrome test/fixtures/ -s takeOnFails=true",
+    "testcafe-headless": "npx testcafe chrome:headless test/fixtures"
+  },
+  "author": "a madamombe",
+  "license": "ISC"
+}
